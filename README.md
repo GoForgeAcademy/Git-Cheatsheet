@@ -1,6 +1,6 @@
 ### GoForge Academy Git Cheatsheet
 
-Learning how to use git in the terminal can be a huge headache at first, but it'll make more sense and come much easier with practice.
+Learning how to use git in the terminal can be a huge headache at first, but it'll make more sense and become easier with practice.
 
 Let's go over a few git commands you will be using a lot throughout your coding career. Each command will be followed by a short description, and if there are arguments to enter they will be represented as `<argument>`.
 
@@ -34,9 +34,9 @@ git commit -m 'Commit message here'
 git push
 ```
 
-* This uploads your latest commit of the branch you are currently on to Github (or other online repository). Pushing means you believe to have the latest version of the code. If you don't have the latest version of the code, git will tell you to `git pull`. After pulling and resolving any issues, you should be able to push again.
+* This uploads your latest commit of the branch you are currently on to GitHub (or other online repository). Pushing means you believe to have the latest version of the code. If you don't have the latest version of the code, git will tell you to `git pull`. After pulling and resolving any issues, you should be able to push again.
 
-* In the chance that your current branch doesn't already exist in the remote repository on Github, git will tell you that you should set an upstream origin. Use the command it provides to do so.
+* In the chance that your current branch doesn't already exist in the remote repository on GitHub, git will tell you that you should set an upstream origin. Use the command it provides to do so.
 
 ---
 
@@ -44,7 +44,7 @@ git push
 git pull
 ```
 
-* Pulling means you are requesting to download the latest code from the remote repository on Github. If no one else has pushed since you last pulled, git will tell you that you are `Already up to date.`
+* Pulling means you are requesting to download the latest code from the remote repository on GitHub. If no one else has pushed since you last pulled, git will tell you that you are `Already up to date.`
 
 * Pulling often results in merge conflicts. Make sure to carefully resolve the conflicts and consult with your team if necessary.
 
@@ -96,7 +96,7 @@ git branch
 git branch -a
 ```
 
-* Lists all branches, including remote Github branches, which will be designated as 'remote'. This is useful for checking out to a team member's remote branch to see their changes before they push.
+* Lists all branches, including remote GitHub branches, which will be designated as 'remote'. This is useful for checking out to a team member's remote branch to see their changes before they push.
 
 ---
 
@@ -171,4 +171,4 @@ git blame
 
 ---
 
-One more quick note - if you make some error (for example, trying to push when there is a more recent version already on Github), git does an amazing job of prompting you with what you need to do. In these cases, git will often give you a command to run. It's usually a good idea to try out the command. If you are super uncertain about it, look the command up and see what it does, then ask for help if you are still confused.
+One more quick note - if you make some error (for example, trying to push when there is a more recent version already on GitHub), git does an amazing job of prompting you with what you need to do. In these cases, git will often give you a command to run. It's usually a good idea to try out the command. If you are super uncertain about it, look the command up and see what it does, then ask for help if you are still confused.
